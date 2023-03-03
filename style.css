@@ -1,0 +1,57 @@
+body {
+    background-image: url(img/fundo.png.PNG); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+   
+   
+    
+}
+
+h1 {
+    color: rgb(231, 254, 255);
+    text-align: center;
+}
+
+.p1 {
+    color: rgb(255, 255, 255);
+    border: 2px dotted rgb(255, 255, 255);
+    border-left: 10px;
+    letter-spacing: 4px;
+}
+
+.detalhe  {
+    color: red;
+}
+
+.play {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.KL {
+    border-radius: 20%;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    display: block;
+
+    animation: go-back 3s infinite alternate;
+}
+
+.musga{
+    margin: auto;
+    display: block;
+}
+
+@keyframes go-back {
+   0% {
+    transform: translatex(-500px);
+
+    }
+    100% {
+        transform: translateX(500px);
+    }
+}
